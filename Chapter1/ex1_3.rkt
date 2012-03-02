@@ -5,7 +5,7 @@
 (define (square x)
   (* x x))
 
-(define (multiply2 x y z)
+(define (sum2 x y z)
   (if (> x y)
       (if (> y z)
           (+ (square x) (square y))
@@ -14,4 +14,4 @@
           (+ (square x) (square y))
           (+ (square y) (square z)))))
 
-(multiply2 2 2 4)
+(sum2 2 2 4)
